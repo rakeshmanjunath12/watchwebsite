@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#nav1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+#nav11{
+    width: 400px;
+    display: flex;
+    justify-content: right;
+}
+#nav12{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+#nav13{
+    height: 100px;
+    width: 500px;
+    justify-content: space-between;
+    flex-basis: 100px;
+    size: 20px;
+
+}
+#div1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#div12{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+   
+}
+#div11{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+
+.d121{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.im1{
+    height: 400px;
+    transition: transform 0.2s;
+}
+.im1:hover{
+    transform: scale(1.05);
+
+}
+#div2{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+#div21{
+    margin: 25px;
+}
+#div23{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    font-size: 25px;
+    
+}
+.div211{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.bu1{
+    height: 50px;
+    width: 300px;
+    font-size: 35px;
+    margin: 5px;
+
+}
+#div3{
+    height: 150px;
+    width: 99vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    margin: 20px;
+    
+}
+#div4{
+    height: 50vh;
+    width: 100vw;
+    background-image: url(background);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    display: flex;
+
+}
+#div41{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#div42{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pbar{
+    font-size: 30px;
+}
+.div5{
+    height: 620px;
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.div6{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+
+
+}
+#div7{
+    height: 90vh;
+    width: 100vw;
+    background-image: url(background);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#div71{
+    height: 100px;
+    width: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#div72{
+    display: flex;
+    justify-content: space-evenly;
+}
+.d721{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.d7211{
+    transition: transform 0.2s;
+}
+.d7211:hover{
+    transform: scale(1.05);
+    
+}
+.div8{
+    height: 75vh;
+    width: 18.5vw;
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+}
+.div81{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+   
+   
+}
+
+.div82{
+  
+    font-size: 23px;
+    display: flex;
+    width: 18.5vw;
+    justify-content: space-between;
+
+}
+#d08{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
